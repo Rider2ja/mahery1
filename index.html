@@ -6,189 +6,222 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mahery1 - Meine Geschichte</title>
+<title>Der Schatten des Sternenkerns</title>
 
 <style>
 
-body{
+*{
 margin:0;
-font-family:Arial,sans-serif;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
 background:#050505;
+font-family:Arial,sans-serif;
 color:white;
-text-align:center;
 }
 
 header{
 padding:70px 20px;
-background:linear-gradient(135deg,#111,#00c6ff);
+text-align:center;
+background:linear-gradient(135deg,#000,#001f3f,#00bfff);
+box-shadow:0 0 30px #00bfff;
 }
 
-h1{
-font-size:45px;
+header h1{
+font-size:50px;
+color:white;
 }
 
-section{
-max-width:850px;
+header p{
+margin-top:15px;
+font-size:20px;
+color:#ddd;
+}
+
+main{
+max-width:1000px;
 margin:auto;
-padding:30px;
+padding:40px 20px;
 }
 
 .card{
 background:#111;
-padding:25px;
-margin:25px;
 border-radius:20px;
-box-shadow:0 0 20px #00c6ff;
+padding:30px;
+margin-bottom:35px;
+box-shadow:0 0 20px rgba(0,191,255,.4);
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.02);
+box-shadow:0 0 30px #00bfff;
 }
 
 h2{
-color:#00c6ff;
+color:#00bfff;
+margin-bottom:20px;
+text-align:center;
 }
 
 p{
 font-size:18px;
-line-height:1.7;
+line-height:1.8;
 }
 
-a{
-display:inline-block;
-padding:15px 30px;
-background:#00c6ff;
+.chapter{
+display:block;
+background:#00bfff;
 color:black;
 text-decoration:none;
-border-radius:30px;
 font-weight:bold;
-margin:10px;
+padding:18px;
+margin-top:15px;
+border-radius:15px;
+text-align:center;
+font-size:20px;
+transition:.3s;
 }
 
-a:hover{
+.chapter:hover{
 background:white;
+transform:scale(1.03);
+}
+
+.update{
+text-align:center;
+font-size:20px;
+color:#00bfff;
+margin-top:10px;
 }
 
 footer{
-padding:20px;
-color:#888;
+text-align:center;
+padding:30px;
+color:#777;
 }
 
 </style>
 
 </head>
 
-
 <body>
-
 
 <header>
 
-<h1>📖 Mahery1</h1>
+<h1>📖 Der Schatten des Sternenkerns</h1>
 
-<p>Meine erste eigene Geschichte</p>
+<p>Ein Fantasy-Light-Novel von Mahery1</p>
 
 </header>
 
-
-
-<section>
-
+<main>
 
 <div class="card">
 
 <h2>✨ Willkommen</h2>
 
 <p>
-Willkommen auf meiner Website für mein aller erstes Buch.
-</p>
 
-<p>
-Werdet Zeugen der spannenden Geschichte und begleitet mich
-auf dieser Reise durch eine neue Welt voller Abenteuer,
-Geheimnisse und unerwarteter Ereignisse.
-</p>
+Willkommen auf meiner Website für mein allererstes Buch.
 
-<p>
-Einen Titel habe ich mir noch nicht ausgesucht.
-Diesen werde ich euch, meinen Lesern, am Ende des Buches
-durch eine Umfrage entscheiden lassen.
-</p>
+Begleitet Akira Shion auf seiner Reise durch eine unbekannte Welt voller Magie, Monster und uralter Geheimnisse.
 
-<p>
-Also wünsche ich euch viel Spaß beim Lesen und hoffe,
-dass euch meine Geschichte gefällt.
+Den endgültigen Titel des Buches werde ich am Ende der Geschichte gemeinsam mit euch durch eine Umfrage auswählen.
+
+Vielen Dank, dass ihr meine Geschichte lest.
+
+Viel Spaß!
+
 </p>
 
 </div>
-
-
 
 <div class="card">
 
-<h2>🌑 Der Schatten des Sternenkerns</h2>
+<h2>🌑 Über die Geschichte</h2>
 
 <p>
-Ein Junge namens Akira Shion wird mit seiner Klasse
-in die Welt Eldoria beschworen.
-</p>
 
-<p>
-Während alle anderen mächtige Fähigkeiten erhalten,
-wird Akira wegen seiner fehlenden Klasse verstoßen.
-Doch im Abyss erwacht eine Macht,
-die die Welt verändern könnte.
+Akira Shion wird gemeinsam mit seiner Klasse in eine fremde Welt beschworen.
+
+Während alle anderen legendäre Klassen erhalten, gilt Akira als wertlos und wird verstoßen.
+
+Doch tief im Abyss erwacht eine uralte Macht...
+
+Eine Macht, die selbst Götter fürchten.
+
 </p>
 
 </div>
-
-
 
 <div class="card">
 
 <h2>📚 Kapitel</h2>
 
-
-<h3>Kapitel 1: Der Junge ohne Klasse</h3>
-
-<a href="kapitel1.html">
-📖 Kapitel 1 lesen
+<a class="chapter" href="kapitel1.html">
+📖 Kapitel 1 – Der Junge ohne Klasse
 </a>
 
-
-<h3>Kapitel 2: Die Macht des Abyss</h3>
-
-<a href="kapitel2.html">
-📖 Kapitel 2 lesen
+<a class="chapter" href="kapitel2.html">
+📖 Kapitel 2 – Die Macht des Abyss
 </a>
 
-
-<h3>Kapitel 3: Der erwachte Stern</h3>
-
-<a href="kapitel3.html">
-📖 Kapitel 3 lesen
+<a class="chapter" href="kapitel3.html">
+📖 Kapitel 3 – Der erwachte Stern
 </a>
 
-
-</div>
-
+<a class="chapter" href="kapitel4.html">
+📖 Kapitel 4 – Der erste Sternenträger
+</a></div>
 
 
 <div class="card">
 
-<h2>🔮 Bald verfügbar</h2>
+<h2>🔮 Zukunft</h2>
 
 <p>
-Kapitel 4 folgt...
+
+Die Geschichte wird regelmäßig erweitert.
+
+Neue Kapitel werden nach und nach veröffentlicht.
+
+Bleibt gespannt, welche Geheimnisse Akira im Abyss noch entdecken wird.
+
+</p>
+
+<p class="update">
+⚔️ Kapitel 5 folgt...
 </p>
 
 </div>
 
 
+<div class="card">
 
-</section>
+<h2>⭐ Unterstützen</h2>
 
+<p>
+
+Wenn euch die Geschichte gefällt, teilt die Website gerne mit anderen Lesern.
+
+Jeder Leser begleitet Akira auf seiner Reise und hilft dabei, diese Geschichte größer zu machen.
+
+</p>
+
+</div>
+
+
+</main>
 
 
 <footer>
 
-© 2026 Mahery1
+<p>
+© 2026 Mahery1 | Der Schatten des Sternenkerns
+</p>
 
 </footer>
 
